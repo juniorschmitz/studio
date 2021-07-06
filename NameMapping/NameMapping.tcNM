@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{A19072F5-3BBF-486C-B067-DF183960BA4F}">
+				<TypeInfo Item0="{FC24E782-1EFA-4B8D-B975-FEF793E59395}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{5A3D1E7C-DF74-4312-BE30-0C20E66BB6F4}">
+						<TypeInfo Item0="{BBF4F527-EC8A-457B-B51A-929E797C1EAA}" />
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageMyStore" Key="{82735628-7D04-4E4F-AFBF-5C408B9799B7}">
+								<Image FileName="1283497683" Left="9" Top="137" Right="1929" Bottom="1039" />
+								<TypeInfo Item0="{460DEEA0-648D-49A9-B3BA-A1EBA16CE079}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://automationpractice.com/index.php" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="header" Key="{57CC3F96-3107-4929-B150-68CACA1C81C1}">
+										<Image FileName="1283497683" Left="9" Top="137" Right="1908" Bottom="530" />
+										<TypeInfo Item0="{5E3CA4AC-B7B5-4C77-8612-27592DF9AB65}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;Sign in&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;page&apos;]/div/header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formSearchbox" Key="{2205F809-04F8-450C-A415-8B8A8EC744D5}">
+										<Image FileName="1283497683" Left="727" Top="327" Right="1189" Bottom="383" />
+										<TypeInfo Item0="{5E3CA4AC-B7B5-4C77-8612-27592DF9AB65}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#searchbox" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Search&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;searchbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;search_block_top&apos;]/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxSearchQueryTop" Key="{2CC25A91-FB06-4CCD-9949-3555DF8ED52C}">
+										<Image FileName="1283497683" Left="727" Top="327" Right="1189" Bottom="383" />
+										<TypeInfo Item0="{36BC6FCB-2071-41A5-BEE0-F733312B7AB3}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#search_query_top" />
+											</Selector>
+											<Selector>
+												<Value Value="*[name=&apos;search_query&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=&apos;search_query_top&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="input[type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;searchbox&apos;]/input[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSearch" Key="{78634F77-8FE8-4E54-A8FF-7B0F7ECC74AC}">
+										<Image FileName="-1106666572" Left="1118" Top="318" Right="1181" Bottom="374" />
+										<TypeInfo Item0="{18062527-B07A-420A-B647-7848077F1869}" />
+										<Selectors>
+											<Selector>
+												<Value Value="*[name=&apos;submit_search&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(., &apos;Search&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="[name=&apos;submit_search&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@name=&apos;submit_search&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;searchbox&apos;]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow" Key="{64BA32B4-9099-44E4-8B8D-996118511165}">
+								<Image FileName="1657933410" Left="-9" Top="-9" Right="1929" Bottom="1039" />
+								<TypeInfo Item0="{01FFD060-816E-4C3C-A8B6-432A9A5470B0}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageIndex" Key="{B7776744-ADF2-4035-9F61-DAA7BEDB5598}">
+								<Image FileName="-1685880267" Left="9" Top="137" Right="1929" Bottom="1039" />
+								<TypeInfo Item0="{460DEEA0-648D-49A9-B3BA-A1EBA16CE079}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://automationpractice.com/index.php*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnode" Key="{0845D3CC-A61A-4F5E-9082-7D1758801D85}">
+										<Image FileName="-1685880267" Left="584" Top="333" Right="1709" Bottom="2167" />
+										<TypeInfo Item0="{EDB94686-14A1-4E1F-A750-883F8AAB150D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Quick view&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".product_list" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;center_column&apos;]/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeQuickView289830515Printe" Key="{550B7043-EF11-4F7A-A12A-CB95AD08E8F1}">
+										<Image FileName="-1685880267" Left="584" Top="333" Right="959" Bottom="944" />
+										<TypeInfo Item0="{5E3CA4AC-B7B5-4C77-8612-27592DF9AB65}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Quick view&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".ajax_block_product:nth-child(1)" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;center_column&apos;]/ul/li" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeNoResultsWereFoundForYou" Key="{AA3667CE-D5DF-4D81-8609-6E9DD41E944C}">
+										<Image FileName="1269490253" Left="602" Top="692" Right="1690" Bottom="754" />
+										<TypeInfo Item0="{5E3CA4AC-B7B5-4C77-8612-27592DF9AB65}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[contains(text(), &apos;No results were found for your search&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".alert" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;center_column&apos;]/p" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="header" Key="{063C147A-9205-46F0-8DE2-274AECAA54C2}">
+										<Image FileName="1366084987" Left="0" Top="128" Right="1899" Bottom="521" />
+										<Selectors>
+											<Selector>
+												<Value Value="#header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;Sign in&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;page&apos;]/div/header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formSearchbox" Key="{CC94D710-D2AE-4B9E-A23A-925A3116C11A}">
+										<Image FileName="1366084987" Left="718" Top="318" Right="1180" Bottom="374" />
+										<Selectors>
+											<Selector>
+												<Value Value="#searchbox" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Search&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;searchbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;search_block_top&apos;]/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxSearchQueryTop" Key="{4F70B25C-9F61-4FCC-B93B-D8C0A0839814}">
+										<Image FileName="1366084987" Left="718" Top="318" Right="1180" Bottom="374" />
+										<TypeInfo Item0="{A684BAE2-1AB0-48FF-8416-6A57F6A696E5}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#search_query_top" />
+											</Selector>
+											<Selector>
+												<Value Value="*[name=&apos;search_query&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=&apos;search_query_top&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="input[type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;searchbox&apos;]/input[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{5A3D1E7C-DF74-4312-BE30-0C20E66BB6F4}">
+			<Child Name="pageMyStore" Owner="{82735628-7D04-4E4F-AFBF-5C408B9799B7}">
+				<Child Name="header" Owner="{57CC3F96-3107-4929-B150-68CACA1C81C1}">
+					<Child Name="formSearchbox" Owner="{2205F809-04F8-450C-A415-8B8A8EC744D5}">
+						<Child Name="textboxSearchQueryTop" Owner="{2CC25A91-FB06-4CCD-9949-3555DF8ED52C}" />
+						<Child Name="buttonSearch" Owner="{78634F77-8FE8-4E54-A8FF-7B0F7ECC74AC}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="BrowserWindow" Owner="{64BA32B4-9099-44E4-8B8D-996118511165}" />
+			<Child Name="pageIndex" Owner="{B7776744-ADF2-4035-9F61-DAA7BEDB5598}">
+				<Child Name="textnode" Owner="{0845D3CC-A61A-4F5E-9082-7D1758801D85}">
+					<Child Name="textnodeQuickView289830515Printe" Owner="{550B7043-EF11-4F7A-A12A-CB95AD08E8F1}" />
+				</Child>
+				<Child Name="textnodeNoResultsWereFoundForYou" Owner="{AA3667CE-D5DF-4D81-8609-6E9DD41E944C}" />
+				<Child Name="header" Owner="{063C147A-9205-46F0-8DE2-274AECAA54C2}">
+					<Child Name="formSearchbox" Owner="{CC94D710-D2AE-4B9E-A23A-925A3116C11A}">
+						<Child Name="textboxSearchQueryTop" Owner="{4F70B25C-9F61-4FCC-B93B-D8C0A0839814}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
