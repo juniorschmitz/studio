@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scenarios>
-	<Feature Path="FakeEcommercePoc.feature" HipTestID="1969751" />
+	<Folder Name="FakeEcommercePoc" Description="As Mario, the user&#10;I would like to search for buying clothes&#10;For not freezing" HipTestID="1969751">
+		<Feature Path="FakeEcommercePoc\Login.feature" HipTestID="1971229" />
+		<Feature Path="FakeEcommercePoc\Search.feature" HipTestID="1971230" />
+	</Folder>
 </Scenarios>

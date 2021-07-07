@@ -273,7 +273,94 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="formLoginForm" Key="{1AFDA6D0-2018-47B5-83B1-6DA613CC5A60}">
+										<Image FileName="476222818" Left="977" Top="468" Right="1690" Bottom="854" />
+										<TypeInfo Item0="{5E3CA4AC-B7B5-4C77-8612-27592DF9AB65}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#login_form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Already registered?&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;login_form&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;center_column&apos;]/div/div[2]/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div[3]/div/div/div[2]/form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxEmailAddress" Key="{F2426C4E-4A09-483C-8099-F7D1BF9AE8D8}">
+										<Image FileName="476222818" Left="1001" Top="607" Right="1340" Bottom="641" />
+										<TypeInfo Item0="{36BC6FCB-2071-41A5-BEE0-F733312B7AB3}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#email" />
+											</Selector>
+											<Selector>
+												<Value Value="*[name=&apos;email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=((//label[text()=&apos;Email address&apos;])[2]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=&apos;email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//input[@type=&apos;text&apos;])[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;login_form&apos;]/div/div/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/form/div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSignIn" Key="{E9ED3708-BE8E-450A-9170-69CBA5A9E7B8}">
+										<Image FileName="-1405047001" Left="1604" Top="209" Right="1679" Bottom="255" />
+										<TypeInfo Item0="{8707E66D-72D5-4536-AB61-0A98879DD72E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="a[href*=&apos;index.php&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Sign in&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="[title=&apos;Log in to your customer account&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@title=&apos;Log in to your customer account&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]/div[2]/div/div/nav/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;index.php&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
+							</Child>
+							<Child Name="BrowserWindow2" Key="{14353B57-FEE7-47BA-9AC3-B922A11DA7BB}">
+								<Image FileName="-1268369050" Left="-9" Top="-9" Right="1927" Bottom="1047" />
+								<TypeInfo Item0="{01FFD060-816E-4C3C-A8B6-432A9A5470B0}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
 							</Child>
 						</Children>
 					</Child>
@@ -301,8 +388,13 @@
 					<Child Name="formSearchbox" Owner="{CC94D710-D2AE-4B9E-A23A-925A3116C11A}">
 						<Child Name="textboxSearchQueryTop" Owner="{4F70B25C-9F61-4FCC-B93B-D8C0A0839814}" />
 					</Child>
+					<Child Name="linkSignIn" Owner="{E9ED3708-BE8E-450A-9170-69CBA5A9E7B8}" />
+				</Child>
+				<Child Name="formLoginForm" Owner="{1AFDA6D0-2018-47B5-83B1-6DA613CC5A60}">
+					<Child Name="textboxEmailAddress" Owner="{F2426C4E-4A09-483C-8099-F7D1BF9AE8D8}" />
 				</Child>
 			</Child>
+			<Child Name="BrowserWindow2" Owner="{14353B57-FEE7-47BA-9AC3-B922A11DA7BB}" />
 		</Child>
 	</LogicalNodes>
 </Root>

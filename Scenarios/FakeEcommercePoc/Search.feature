@@ -1,7 +1,7 @@
-﻿Feature: FakeEcommercePoc
+﻿Feature: Search
     As Mario, the user
     I would like to search for buying clothes
-    For not freeze
+    For not freezing
 
   Scenario: Search for valid product
     Given Mario is on the Homepage
